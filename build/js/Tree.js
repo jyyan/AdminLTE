@@ -102,10 +102,14 @@
 
   Tree.prototype._setUpListeners = function () {
     var that = this;
+    var checkEvent = $(this.element).data('tree-event');
 
-    $(this.element).on('click', this.options.trigger, function (event) {
-      that.toggle($(this), event);
-    });
+    if(!checkEvent){
+      $(this.element).on('click', this.options.trigger, function (event) {
+        that.toggle($(this), event);
+      });
+      $(this.element).data('tree-event', 'binded');
+    }
   };
 
   // Plugin Definition

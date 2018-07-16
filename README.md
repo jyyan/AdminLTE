@@ -42,7 +42,7 @@ reserves the right to change the license of future releases. Wondering what you 
 AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://adminlte.io/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
 
 ### Change log
-**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases) or the [changelog file](https://github.com/almasaeed2010/AdminLTE/blob/master/changelog.md).** We will add detailed release notes to each new release. 
+**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases) or the [changelog file](https://github.com/almasaeed2010/AdminLTE/blob/master/changelog.md).** We will add detailed release notes to each new release.
 
 ### Image Credits
 - [Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
@@ -55,3 +55,12 @@ AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://adminlte.i
 Donations are **greatly appreciated!**
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
+
+
+
+====
+
+### dev note
+
+* grunt css : only package man css
+* grunt less : export all less files , include skins

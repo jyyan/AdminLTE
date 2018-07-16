@@ -7,7 +7,7 @@
 * @Author  Almsaeed Studio
 * @Support <https://www.almsaeedstudio.com>
 * @Email   <abdullah@almsaeedstudio.com>
-* @version 2.4.2
+* @version 2.4.3
 * @repository git://github.com/almasaeed2010/AdminLTE.git
 * @license MIT <http://opensource.org/licenses/MIT>
 */
@@ -1086,10 +1086,14 @@ throw new Error('AdminLTE requires jQuery')
 
   Tree.prototype._setUpListeners = function () {
     var that = this;
+    var checkEvent = $(this.element).data('tree-event');
 
-    $(this.element).on('click', this.options.trigger, function (event) {
-      that.toggle($(this), event);
-    });
+    if(!checkEvent){
+      $(this.element).on('click', this.options.trigger, function (event) {
+        that.toggle($(this), event);
+      });
+      $(this.element).data('tree-event', 'binded');
+    }
   };
 
   // Plugin Definition

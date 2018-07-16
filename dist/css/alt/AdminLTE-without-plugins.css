@@ -46,7 +46,7 @@ body {
   position: relative;
 }
 .layout-boxed {
-  background: url('../img/boxed-bg.jpg') repeat fixed;
+  background: url('../../img/boxed-bg.jpg') repeat fixed;
 }
 /*
  * Content Wrapper - contains the main content
@@ -181,6 +181,7 @@ a:focus {
   display: block;
   margin-top: 5px;
 }
+/*@sidebar-light-bg: #f39c12;*/
 /*
  * Component: Main Header
  * ----------------------
