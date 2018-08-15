@@ -2,9 +2,12 @@
  * Skin: Red
  * ---------
  */
+/*@light-blue: #3c8dbc;*/
+/*@red: #dd4b39;*/
+/*@blue: #0073b7;*/
 /*@sidebar-light-bg: #f39c12;*/
 .skin-red-light .main-header .navbar {
-  background-color: #dd4b39;
+  background-color: #e0636f;
 }
 .skin-red-light .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -30,7 +33,7 @@
   color: #fff;
 }
 .skin-red-light .main-header .navbar .sidebar-toggle:hover {
-  background-color: #d73925;
+  background-color: #dc4e5b;
 }
 @media (max-width: 767px) {
   .skin-red-light .main-header .navbar .dropdown-menu li.divider {
@@ -40,19 +43,19 @@
     color: #fff;
   }
   .skin-red-light .main-header .navbar .dropdown-menu li a:hover {
-    background: #d73925;
+    background: #dc4e5b;
   }
 }
 .skin-red-light .main-header .logo {
-  background-color: #dd4b39;
+  background-color: #e0636f;
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .skin-red-light .main-header .logo:hover {
-  background-color: #dc4735;
+  background-color: #df5f6b;
 }
 .skin-red-light .main-header li.user-header {
-  background-color: #dd4b39;
+  background-color: #e0636f;
 }
 .skin-red-light .content-header {
   background: transparent;
@@ -88,7 +91,7 @@
   background: #f4f4f5;
 }
 .skin-red-light .sidebar-menu > li.active {
-  border-left-color: #dd4b39;
+  border-left-color: #e0636f;
 }
 .skin-red-light .sidebar-menu > li.active > a {
   font-weight: 600;
